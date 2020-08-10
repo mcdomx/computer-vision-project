@@ -21,13 +21,13 @@ A brief discussion on the most recent iteration of this infrastructure, YOLACT, 
 ## Table of Contents
 
 1. [Instance Segmentation Overview](#sec1)
-2. <a href=#sec2>Related Work</a>
-3. <a href=#sec3>Mask R-CNN Explained</a>
-4. <a href=#sec4>Implementation</a>
-5. <a href=#sec5>Other Models</a>
-6. <a href=#sec6>Lessons Learned / Improvements</a>
-7. <a href=#sec7>Conclusion</a>
-8. <a href=#sec8>References</a>
+2. [Related Work](#sec2)
+3. [Mask R-CNN Explained](#sec3)
+4. [Implementation(#sec4)
+5. [Other Models](#sec5)
+6. [Lessons Learned / Improvements](#sec6)
+7. [Conclusion](#sec7)
+8. [References](#sec8)
 
 - - -
 
