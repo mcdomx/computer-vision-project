@@ -635,7 +635,7 @@ Although we felt that our results were positive and that the project was success
 
 We considered the results of this project successful.  Although we never achieved the end-goal of producing a recommendation, we prvided a solid framework for identifying items of clothings which could be applied to such an application.  We felt that the results of segmenations were very strong as evidenced by metrics that are close to promised from the model description.
 
-<a name=sec8>
+<a name=sec8></a>
 ## 8. References
 <a href=#toc>back to table of contents</a><br>
 
