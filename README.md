@@ -20,7 +20,7 @@ A brief discussion on the most recent iteration of this infrastructure, YOLACT, 
 <a name=toc></a>
 ## Table of Contents
 
-1. <a href=#sec1>Instance Segmentation Overview</a>
+1. [Instance Segmentation Overview](#sec1)
 2. <a href=#sec2>Related Work</a>
 3. <a href=#sec3>Mask R-CNN Explained</a>
 4. <a href=#sec4>Implementation</a>
