@@ -33,7 +33,7 @@ A brief discussion on the most recent iteration of this infrastructure, YOLACT, 
 
 <a name=sec1></a>
 ## 1. Instance Segmentation Overview
-[back to table of contents](#toc)
+[back to table of contents](#toc)<br>
 Instance segmentation is the task of identifying object outlines from images at the pixel level. Instance segmentation is challenging because it requires the correct detection of all objects in an image while also precisely segmenting each instance. Figure 1 illustrates the differences between the different computer vision tasks.
 
 <br>
@@ -53,7 +53,7 @@ Semantic segmentation has the goal of classify each pixel into a fixed set of ca
 
 <a name=sec2></a>
 ## 2. Related Work
-[back to table of contents](#toc)
+[back to table of contents](#toc)<br>
 Object detection has become a primary focus of computer vision tasks over recent years.  In 2015, FaceBook Research introduced a viable instance segmentation architecture with DeepMask [13].  Less than a year after publishing DeepMask, the same team published an iterative improvement called SharpMask [14] which addressed many of the DeepMask inaccuracies.  DeepMask and SharpMask did not use skip connections and focused on refining a proposed mask using convolution.  Inference times of the improved SharpMask were ~.8s per frame.  At the same time, the R-CNN family of object detection architectures were undergoing a series of iterative improvements with the publication of Fast R-CNN and Faster-RCNN.  Although these focused on object detection, they became the precursor to instance segmenation architecture of Mask R-CNN in 2018.  By focusing on segmentation first and then classification, DeepMask and SharpMask proved slow to train and predict and had a high rate of misclassifications with ppor quality masking.  Mask R-CNN performs the same task as DeepMask and SharpMask but does calculations in parallel to the classification task improving both speed and accuracy.  By starting the segmentaion algothim on an area of the image where an object has already been detected, the quality improved.
 
 This paper focuses on how Mask R-CNN works and its evolution.
@@ -61,7 +61,7 @@ This paper focuses on how Mask R-CNN works and its evolution.
 
 <a name=sec3></a>
 ## 3. Mask R-CNN Explained
-[back to table of contents](#toc)
+[back to table of contents](#toc)<br>
 
 ### Evolution of Mask R-CNN
 Mask R-CNN is the evolution of not a segmentation architecture, but rather the R-CNN object detection architecure.  The timeline in Figure 2 shows the rapid progress since R-CNN was introduced in 2014 and how it developed into the instance segmentation architecture of Mask R-CNN in 2018.  In 2019, Mask R-CNN was refined by the YOLACT instrastructure which dramatically improved inference time allowing real-time segmenation of images, albeit with lower accuracy.
@@ -306,7 +306,7 @@ Each branch produces a unique output.
 
 <a name=sec4></a>
 ## 4. Implementation
-[back to table of contents](#toc)
+[back to table of contents](#toc)<br>
 
 In this project, we utilized an open-source implementation of Mask R-CNN model provided by Matterport[12] and applied it on the recently release iMaterialist Dataset[7] which focuses on clothing apparels and attributes in scene-based images. We apply the Mask R-CNN model that was initially trained on the COCO dataset and fine-tune it for the iMaterialist Dataset images to obtain instance-level segmentation outputs. 
 
@@ -544,7 +544,7 @@ We also ran predictions on a real-world image the results of which are included 
 
 <a name=sec5></a>
 ## 5. Other Models
-[back to table of contents](#toc)
+[back to table of contents](#toc)<br>
 
 In order to extend our dataset to other models, we made attempts to train a UNET and YOLACT model in order to compare and contrast with Mask RCNN.  Unfortuntately, this proved more challenging than expected:
 
@@ -610,7 +610,7 @@ Note: YOLACT++ was published during the completion of this paper improving accua
 
 <a name=sec6></a>
 ## 6. Lessons Learned / Improvements
-[back to table of contents](#toc)
+[back to table of contents](#toc)<br>
 
 Implementaiton of this model was a useful experience.  We note several of the key points learned during this exercise:
 
@@ -631,7 +631,7 @@ Although we felt that our results were positive and that the project was success
 
 <a name=sec7></a>
 ## 7. Conclusion
-<a href=#toc>back to table of contents</a><br>
+[back to table of contents](#toc)<br>
 
 We considered the results of this project successful.  Although we never achieved the end-goal of producing a recommendation, we prvided a solid framework for identifying items of clothings which could be applied to such an application.  We felt that the results of segmenations were very strong as evidenced by metrics that are close to promised from the model description.
 
