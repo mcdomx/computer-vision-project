@@ -637,7 +637,7 @@ We considered the results of this project successful.  Although we never achieve
 
 <a name=sec8></a>
 ## 8. References
-<a href=#toc>back to table of contents</a><br>
+[back to table of contents](#toc)<br>
 
 [1]  Krishnan, A. (2019, June 19). StyleSnap will change the way you shop, forever. Retrieved from aboutamazon.com <br>
 [2]  Le, J. (2018, January 14). Pinterest's Visual Lens: How computer vision explores your taste. Retrieved from . Medium.com.<br>
