@@ -1,6 +1,7 @@
 
 
 # Fashion Recommendation
+Group Project: An Hoang, Vivek Bhatia, Mark McDonald
 - - -
 Recently, computer vision applications have attracted significant attention in the fashion domain. A historically challenging task has been to build an intelligent recommender system that can suggest items for purchase, based on a semantically rich notion of “personalized style”. Despite the seemingly insurmountable complexity of this task, the lucrative end reward has enticed e-commerce behemoths like Amazon [1], Stitch Fix, and Pinterest [2] to participate in a race to develop recommender systems that can understand notions of style.
 
